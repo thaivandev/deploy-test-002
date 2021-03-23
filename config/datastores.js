@@ -51,7 +51,14 @@ module.exports.datastores = {
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
     adapter: 'sails-mysql',
-    url: 'mysql://root:qwe123@localhost:3306/shop',
+    url: 'mysql://urogfc0t7m2znwgq:HsXcywxjFkJqgHdLUHJg@bkx7wtwiyympkagsf9kh-mysql.services.clever-cloud.com:3306/bkx7wtwiyympkagsf9kh',
+
+    // MYSQL_ADDON_HOST=bkx7wtwiyympkagsf9kh-mysql.services.clever-cloud.com
+    // MYSQL_ADDON_DB=bkx7wtwiyympkagsf9kh
+    // MYSQL_ADDON_USER=urogfc0t7m2znwgq
+    // MYSQL_ADDON_PORT=3306
+    // MYSQL_ADDON_PASSWORD=HsXcywxjFkJqgHdLUHJg 
+    // MYSQL_ADDON_URI=mysql://urogfc0t7m2znwgq:HsXcywxjFkJqgHdLUHJg@bkx7wtwiyympkagsf9kh-mysql.services.clever-cloud.com:3306/bkx7wtwiyympkagsf9kh
 
   },
 
