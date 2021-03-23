@@ -17,6 +17,10 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  '*': true,
+  // '*': true,
+  '*': 'isLoggedIn',
+  'users/login': true,
+  'users/createUser': true,
+  'test/*': true,
 
 };

@@ -9,5 +9,17 @@
  */
 
 module.exports.routes = {
-  'GET /api/users': 'UsersController.getUsers'
+  'GET /api/user': 'UsersController.getUsers',
+
+  'POST /api/user': 'UsersController.createUser',
+  'POST /api/login': 'UsersController.login',
+
+  'GET /api/users': 'UsersController.users',
+
+  'POST /api/newsItems': 'NewsItemsController.createNewsItems',
+  'PUT /api/newsItems': 'NewsItemsController.updateNewsItems',
+  'GET /api/newsItem': 'NewsItemsController.newsItem',
+  'GET /api/newsItems': 'NewsItemsController.newsItems',
+  'DELETE /api/newsItems': 'NewsItemsController.deleteNewsItems',
+  'GET /api/test': 'TestController.test',
 };
