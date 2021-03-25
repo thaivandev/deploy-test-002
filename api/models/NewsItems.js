@@ -21,9 +21,11 @@ module.exports = {
     },
     keywords: {
       'type': 'text',
+      'columnType': 'TEXT'
     },
     description: {
       'type': 'text',
+      'columnType': 'TEXT'
     },
     title: {
       'type': 'string',

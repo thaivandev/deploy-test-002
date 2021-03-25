@@ -22,5 +22,6 @@ module.exports.policies = {
   'users/login': true,
   'users/createUser': true,
   'test/*': true,
+  'upload/*': true,
 
 };

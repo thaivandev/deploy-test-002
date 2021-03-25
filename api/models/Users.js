@@ -47,6 +47,11 @@ module.exports = {
       'type': 'text',
       'allowNull': true,
       'columnType': 'TEXT'
+    },
+    avatarFd: {
+      'type': 'text',
+      'allowNull': true,
+      'columnType': 'TEXT'
     }
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗

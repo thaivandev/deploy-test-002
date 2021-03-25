@@ -48,10 +48,10 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
     adapter: 'sails-mysql',
-    url: 'mysql://urogfc0t7m2znwgq:HsXcywxjFkJqgHdLUHJg@bkx7wtwiyympkagsf9kh-mysql.services.clever-cloud.com:3306/bkx7wtwiyympkagsf9kh',
+    url: 'mysql://root:qwe123@localhost:3306/shopdev',
+    // adapter: 'sails-mysql',
+    // url: 'mysql://urogfc0t7m2znwgq:HsXcywxjFkJqgHdLUHJg@bkx7wtwiyympkagsf9kh-mysql.services.clever-cloud.com:3306/bkx7wtwiyympkagsf9kh',
 
     // MYSQL_ADDON_HOST=bkx7wtwiyympkagsf9kh-mysql.services.clever-cloud.com
     // MYSQL_ADDON_DB=bkx7wtwiyympkagsf9kh
