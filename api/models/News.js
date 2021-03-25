@@ -29,14 +29,23 @@ module.exports = {
     view: {
       'type': 'number',
     },
+    display: {
+      'type': 'boolean'
+    },
+    highlights: {
+      'type': 'boolean'
+    },
     content: {
       'type': 'text',
+      'columnType': 'TEXT'
     },
     keywords: {
       'type': 'text',
+      'columnType': 'TEXT'
     },
     description: {
       'type': 'text',
+      'columnType': 'TEXT'
     },
     title: {
       'type': 'string',

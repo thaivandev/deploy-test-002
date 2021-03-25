@@ -49,7 +49,7 @@ module.exports.datastores = {
     *                                                                          *
     ***************************************************************************/
     // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
+    // url: 'mysql://root:qwe123@localhost:3306/shopdev',
     adapter: 'sails-mysql',
     url: 'mysql://urogfc0t7m2znwgq:HsXcywxjFkJqgHdLUHJg@bkx7wtwiyympkagsf9kh-mysql.services.clever-cloud.com:3306/bkx7wtwiyympkagsf9kh',
 
