@@ -49,8 +49,8 @@ module.exports = {
     default: {
       // adapter: 'sails-mysql',
       // url: 'mysql://user:password@host:port/database',
-      adapter: 'sails-mysql',
-      url: 'mysql://urogfc0t7m2znwgq:HsXcywxjFkJqgHdLUHJg@bkx7wtwiyympkagsf9kh-mysql.services.clever-cloud.com:3306/bkx7wtwiyympkagsf9kh',
+      // adapter: 'sails-mysql',
+      // url: 'mysql://urogfc0t7m2znwgq:HsXcywxjFkJqgHdLUHJg@bkx7wtwiyympkagsf9kh-mysql.services.clever-cloud.com:3306/bkx7wtwiyympkagsf9kh',
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
