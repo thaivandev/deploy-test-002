@@ -87,8 +87,12 @@ module.exports = {
   },
 
   newsItems: async (req, res) => {
+    console.log('bbbbbbbbbbbbbbbbbbbbbbbbb');
 
-    NewsItems.find().exec(async (err, newsItems) => {
+    const users = await NewsItems.find().populate('news');
+    console.log('aaaaaa', users);
+
+    NewsItems.find().populate('news').exec(async (err, newsItems) => {
       if (err) {
         return res.serverError({
           success: false,

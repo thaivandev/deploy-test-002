@@ -14,12 +14,14 @@ module.exports = {
   },
   upload: (req, res) => {
     req.file('avatar').upload({
-      dirname: require('path').resolve(sails.config.appPath, '.tmp/public/images'),
+      dirname: require('path').resolve(sails.config.appPath, 'assets/images'),
     },async (err, uploadedFiles) => {
       if (err) { return res.serverError(err); }
+      if (uploadedFiles && uploadedFiles.length === 0) { return res.ok({ message: 'upload failed', success: true }); }
 
       const baseUrl = sails.config.custom.baseUrl;
-      console.log('ssssss', require('util').format('%s/user/avatar/%s', baseUrl, req.query));
+
+      console.log('ssssss', require('util').format('%s/user/avatar/%s', baseUrl, req.query), uploadedFiles);
 
       await Users.update(req.query, {
 

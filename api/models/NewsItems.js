@@ -27,8 +27,20 @@ module.exports = {
       'type': 'text',
       'columnType': 'TEXT'
     },
+    display: {
+      'type': 'boolean',
+      'defaultsTo': true,
+    },
+    highlights: {
+      'type': 'boolean',
+      'defaultsTo': true,
+    },
     title: {
       'type': 'string',
+    },
+    news: {
+      'collection': 'news',
+      'via': 'newsItem'
     }
 
 

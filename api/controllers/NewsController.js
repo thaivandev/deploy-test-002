@@ -94,7 +94,7 @@ module.exports = {
 
   newsItems: async (req, res) => {
 
-    NewsItem.find().exec(async (err, newsItems) => {
+    News.find().exec(async (err, news) => {
       if (err) {
         return res.serverError({
           success: false,
@@ -102,7 +102,7 @@ module.exports = {
         });
       }
 
-      if (!newsItems) {
+      if (!news) {
         return res.status(404).json({
           success: false,
           message: 'News items not found'
@@ -111,7 +111,7 @@ module.exports = {
 
       return res.ok({
         success: true,
-        data: newsItems
+        data: news
       });
     });
   },

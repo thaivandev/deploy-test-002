@@ -17,8 +17,8 @@ module.exports = {
       'type': 'string',
       'required': true
     },
-    productListId: {
-      'type': 'number',
+    category: {
+      model: 'Category'
     },
     productItemId: {
       'type': 'number',
@@ -35,13 +35,15 @@ module.exports = {
       'columnType': 'float'
     },
     display: {
-      'type': 'boolean'
+      'type': 'boolean',
+      'defaultsTo': true,
     },
     hotSale: {
       'type': 'boolean'
     },
     highlights: {
-      'type': 'boolean'
+      'type': 'boolean',
+      'defaultsTo': true,
     },
     type: {
       'type': 'string',

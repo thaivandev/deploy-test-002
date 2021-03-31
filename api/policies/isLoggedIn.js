@@ -7,8 +7,6 @@ module.exports = async function isLoggedIn(req, res, next) {
     });
   }
   const newToken = tokenFromClient.replace('Bearer ', '');
-  console.log('tokenFromClient', tokenFromClient, newToken);
-
   if (tokenFromClient) {
     try {
       await sails.helpers.verifyJwt.with({
