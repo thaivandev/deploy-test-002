@@ -55,15 +55,15 @@ module.exports = {
       'type': 'number',
     },
     content: {
-      'type': 'text',
+      'type': 'string',
       'columnType': 'TEXT'
     },
     keywords: {
-      'type': 'text',
+      'type': 'string',
       'columnType': 'TEXT'
     },
     description: {
-      'type': 'text',
+      'type': 'string',
       'columnType': 'TEXT'
     },
     title: {

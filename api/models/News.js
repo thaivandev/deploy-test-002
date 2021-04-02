@@ -38,15 +38,15 @@ module.exports = {
       'defaultsTo': true,
     },
     content: {
-      'type': 'text',
+      'type': 'string',
       'columnType': 'TEXT'
     },
     keywords: {
-      'type': 'text',
+      'type': 'string',
       'columnType': 'TEXT'
     },
     description: {
-      'type': 'text',
+      'type': 'string',
       'columnType': 'TEXT'
     },
     title: {

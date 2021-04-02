@@ -20,11 +20,11 @@ module.exports = {
       'type': 'string',
     },
     keywords: {
-      'type': 'text',
+      'type': 'string',
       'columnType': 'TEXT'
     },
     description: {
-      'type': 'text',
+      'type': 'string',
       'columnType': 'TEXT'
     },
     display: {

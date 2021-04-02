@@ -30,7 +30,9 @@ module.exports = {
       'required': true
     },
     address: {
-      'type': 'text',
+      'type': 'string',
+      'allowNull': true,
+      'columnType': 'TEXT'
     },
     email: {
       'type': 'string',
@@ -39,17 +41,17 @@ module.exports = {
       'unique': true,
     },
     token: {
-      'type': 'text',
+      'type': 'string',
       'allowNull': true,
       'columnType': 'TEXT'
     },
     refreshToken: {
-      'type': 'text',
+      'type': 'string',
       'allowNull': true,
       'columnType': 'TEXT'
     },
     avatarFd: {
-      'type': 'text',
+      'type': 'string',
       'allowNull': true,
       'columnType': 'TEXT'
     }
